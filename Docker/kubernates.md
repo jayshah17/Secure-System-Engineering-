@@ -48,3 +48,5 @@ starting at its file location
 ![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/7244a465-89c1-49ea-8612-5a8242145527)
 
 ![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/42962c95-772c-422a-b31a-d27165408474)
+
+![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/e406cff4-72f9-4c54-a185-179c2400d946)
