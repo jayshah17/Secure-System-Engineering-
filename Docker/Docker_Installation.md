@@ -48,5 +48,33 @@ docker run hello-world
 
 > docker run -it ubuntu bash
 
+In this command -i refers to an interactive, -t refers to the tag that needs to be pulled. ubuntu is the tag
+name that gets pulled, bash is the command that would be run interactively.
+
+
 ![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/50344b78-e54f-40de-9d5e-1fd7e0a312fc)
+
+![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/da23566e-3fab-489a-9952-43f8eb0e17fa)
+
+> docker images
+
+![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/b0039818-f2b1-4811-bc06-33937374774d)
+
+### Create a Dockerfile, which allows you to declaratively define your containers
+
+Create a Dockerfile in the current directory with the following contents.
+
+FROM ubuntu:bionic
+
+RUN apt-get update && \
+apt-get install --no-install-recommends -y \
+python3.6
+
+CMD ["/usr/bin/python3.6", "-i"]
+
+Build an image using the instructions written in the Dockerfile.
+
+> docker build -t mypython:latest .
+
+
 
