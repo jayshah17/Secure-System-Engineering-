@@ -1,5 +1,18 @@
 # Lecture 12 Frida Tool for Network Interospection
 
+Frida is a dynamic instrumentation toolkit designed for developers, reverse engineers, and security researchers. It allows you to inject scripts into running processes to inspect and modify their behaviour on the fly.
+
+Use Cases
+
+•	Security Testing: Inspect and modify the behavior of applications to find vulnerabilities and test security mechanisms.
+•	Reverse Engineering: Understand how applications work internally by examining and modifying their runtime behavior.
+•	Debugging: Debug applications by injecting scripts to track down bugs and performance issues.
+•	Bypassing Restrictions: Modify app behavior to bypass certain restrictions or implement additional features.
+
+
+
+Frida uses an injector to load a shared library into the target process. This library provides a JavaScript runtime environment where user scripts are executed. The scripts can hook into various functions, manipulate memory, and interact with the app in real-time.
+
 
 ![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/155d29d2-7e91-4fdd-8e5e-a3145b7fbb8e)
 
