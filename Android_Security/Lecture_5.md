@@ -25,7 +25,18 @@ present in the original APK ZIP archive.
 
 ![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/f2870317-6a60-4206-83c6-2a8935475570)
 
-Now Jadx Tool
+# Zipalign: used to optimize APK files by aligning their data 
+
+![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/599056af-c677-43fe-b747-2e91c1141d9e)
+
+To align infile.apk and save it as outfile.apk: 
+
+> zipalign -p -f -v 4 infile.apk outfile.apk 
+To confirm the alignment of existing.apk, use the following command. 
+
+> zipalign -c -v 4 existing.apk 
+
+# Jadx Tool
 
 jadx is a Dex to Java decompiler. It is a command line and GUI tools for producing Java source code from
 Android Dex and Apk files
@@ -36,14 +47,11 @@ The decompiled JAVA source code is seen in the JADX window.
 
 ![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/882abd45-d4a7-4bbd-8b1a-448f3da234b2)
 
-
-
 ![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/253d08a4-cc01-4301-8fc1-809525db58e6)
 
 We can save the decompiled JAVA source code as a Gradle project, as shown in the below screenshots.
 
 ![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/60a4cd28-1ebb-47e8-a17e-81850be53c5e)
 
-
-
 ![image](https://github.com/jayshah17/Secure-System-Engineering-/assets/76842630/dbc3bbca-77c2-46d1-bf72-81daa7c7eb6f)
+
