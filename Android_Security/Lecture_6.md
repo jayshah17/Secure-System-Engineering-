@@ -1,4 +1,4 @@
-# OWASP Top 10 Vulnerabilities in Mobile 
+# Top 10 Mobile Vulnerability in DIVA_beta.pk
 
 We will use Diva_beta.apk (Damn Insecure Vulnerable Application) with list of Top 10 Mobile Vulnerabilities.
 
